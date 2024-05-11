@@ -6,7 +6,7 @@ function ColorThemeSwitch() {
   return (
     <HStack>
         <Switch colorScheme='green' isChecked={colorMode === 'light'} onChange={toggleColorMode}></Switch>
-        <Text>Light Mode</Text>
+        <Text whiteSpace='nowrap'>Light Mode</Text>
     </HStack>
   )
 }
